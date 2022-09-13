@@ -65,3 +65,5 @@ let arrayEquipo = [{
 let desarrolladores = arrayEquipo.filter(miembro => miembro.posicion == "developer")
 
 console.log(desarrolladores);
+
+//este filter demostraría en el caso que un proyecto sea grupal, cuales de estos programadores son mayor de edad.
